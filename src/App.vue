@@ -1,26 +1,45 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+	<div>
+		<HeaderProject @filter="filter" />
+		<main class="conteiner">
+			<div v-for="(item, i) in dataList" :key="i">
+				<CardProject :item="item" :id="i" />
+			</div>
+		</main>
+	</div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script setup>
+	import { ref, computed } from 'vue';
+	import data from './db/data';
+	import HeaderProject from './components/HeaderProject.vue';
+	import CardProject from './components/CardProject.vue';
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+	const itemFilter = ref('Todos');
+
+	const dataList = computed(() => {
+		if (itemFilter.value == 'Todos') return data;
+		return data.filter((item) => {
+			if (item.languages.includes(itemFilter.value)) {
+				return true;
+			} else {
+				return false;
+			}
+		});
+	});
+
+	function filter(item) {
+		itemFilter.value = item;
+	}
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
+	.conteiner {
+		padding: 24px;
+	}
+	@media (min-width: 1200px) {
+		.conteiner {
+			padding: 24px 128px;
+		}
+	}
 </style>
