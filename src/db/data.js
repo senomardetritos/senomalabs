@@ -1,6 +1,6 @@
 export default [
 	{
-		languages: ['Vue', 'PHP'],
+		languages: ['Vue', 'Pinia', 'PHP'],
 		name: 'Universities App',
 		description:
 			'Projeto front-end desenvolvido com Vue 3 em que filtrado por país carrega uma lista de universidades da api da universities.hipolabs. É possível filtrar pelo nome, adicionar como favorito, ver a lista dos favoritos e mostrar uma descrição caso uma api simples desenvolvida em PHP consiga acessar o site e trazer a tag meta description. Baseado no Template E-commerce - capputeeno, este projeto tem como objetivo treinar os conhecimentos do Vue e gestão de estado utilizando o Pinia.',
@@ -11,6 +11,17 @@ export default [
 			GitHub: 'https://github.com/senomardetritos/universities-app',
 		},
 		images: ['images/universities/01.png', 'images/universities/02.png', 'images/universities/03.png'],
+	},
+	{
+		languages: ['Vue', 'Vuex'],
+		name: 'Pantone Colors',
+		description: 'Projeto utilizando Vue 3 e gerenciamento de estado Vuex em que é possível adicionar/remove cores tipo um carrino de compras.',
+		links: {
+			Demo: 'https://senomalabs.com/pantone-colors',
+			API: 'https://reqres.in/api/unknown?page=1',
+			GitHub: 'https://github.com/senomardetritos/pantone_colors',
+		},
+		images: ['images/pantone/01.png', 'images/pantone/02.png'],
 	},
 	{
 		languages: ['Vue'],

@@ -13,7 +13,7 @@
 
 	const emits = defineEmits(['filter']);
 	const actualFilter = ref('Todos');
-	const languages = ref(['Todos', 'Vue', 'PHP']);
+	const languages = ref(['Todos', 'Vue', 'Pinia', 'Vuex', 'PHP']);
 
 	function filter(item) {
 		actualFilter.value = item;
