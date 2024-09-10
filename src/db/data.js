@@ -1,5 +1,15 @@
 export default [
 	{
+		languages: ['Vue', 'Vuex', 'PHP'],
+		name: 'Lista Supermercado',
+		description: 'Projeto para cadastrar listas de supermercado. Front-end responsivo desenvolvido com Vue3 e Vuex. Back-end desenvolvido em PHP puro.',
+		links: {
+			Demo: 'https://senomalabs.com/lista-supermercado',
+			GitHub: 'https://github.com/senomardetritos/lista_supermercado',
+		},
+		images: ['images/ls/01.png', 'images/ls/02.png', 'images/ls/03.png'],
+	},
+	{
 		languages: ['Vue', 'Pinia', 'PHP'],
 		name: 'Universities App',
 		description:
