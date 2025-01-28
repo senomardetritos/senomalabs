@@ -1,5 +1,15 @@
 export default [
 	{
+		languages: ['React'],
+		name: 'InstaGit',
+		description: 'Projeto pessoal de estudos de React: Layout baseado no Instagram utilizando os dados da API do Github.',
+		links: {
+			Demo: 'https://senomalabs.com/insta-git',
+			GitHub: 'https://github.com/senomardetritos/insta-git',
+		},
+		images: ['images/instagit/01.jpg', 'images/instagit/02.jpg', 'images/instagit/03.jpg'],
+	},
+	{
 		languages: ['Vue', 'Vuex', 'PHP'],
 		name: 'Lista Supermercado',
 		description: 'Projeto para cadastrar listas de supermercado. Front-end responsivo desenvolvido com Vue3 e Vuex. Back-end desenvolvido em PHP puro.',
