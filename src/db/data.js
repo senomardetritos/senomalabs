@@ -26,7 +26,7 @@ export default [
 			Demo: 'https://senomalabs.com/lista-supermercado',
 			GitHub: 'https://github.com/senomardetritos/lista_supermercado',
 		},
-		images: ['images/ls/01.png', 'images/ls/02.png', 'images/ls/03.png'],
+		images: ['images/supermercado/01.png', 'images/supermercado/02.png', 'images/supermercado/03.png'],
 	},
 	{
 		languages: ['Vue', 'Pinia', 'PHP'],
@@ -43,7 +43,7 @@ export default [
 			Figma: 'https://www.figma.com/design/rET9F2CeUEJdiVN7JRu993/E-commerce---capputeeno',
 			GitHub: 'https://github.com/senomardetritos/universities-app',
 		},
-		images: ['images/universities/01.png', 'images/universities/02.png', 'images/universities/03.png'],
+		images: ['images/universities-app/01.png', 'images/universities-app/02.png', 'images/universities-app/03.png'],
 	},
 	{
 		languages: ['Vue', 'Vuex'],
@@ -59,7 +59,7 @@ export default [
 			API: 'https://reqres.in/api/unknown?page=1',
 			GitHub: 'https://github.com/senomardetritos/pantone_colors',
 		},
-		images: ['images/pantone/01.png', 'images/pantone/02.png'],
+		images: ['images/pantonecolors/01.png', 'images/pantonecolors/02.png'],
 	},
 	{
 		languages: ['Vue'],
@@ -74,7 +74,7 @@ export default [
 			Demo: 'https://senomalabs.com/todo-card-list',
 			GitHub: 'https://github.com/senomardetritos/todo-card-list',
 		},
-		images: ['images/todo/01.png', 'images/todo/02.png', 'images/todo/03.png'],
+		images: ['images/to-do/01.png', 'images/to-do/02.png', 'images/to-do/03.png'],
 	},
 	{
 		languages: ['Vue', 'PHP'],
@@ -90,6 +90,6 @@ export default [
 			Demo: 'https://senomalabs.com/music_to_play',
 			GitHub: 'https://github.com/senomardetritos/music-to-play',
 		},
-		images: ['images/music/01.png', 'images/music/02.png', 'images/music/03.png'],
+		images: ['images/musictoplay/01.png', 'images/musictoplay/02.png', 'images/musictoplay/03.png'],
 	},
 ];
