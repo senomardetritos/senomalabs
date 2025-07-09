@@ -5,6 +5,11 @@
 		</div>
 		<div class="projeto-body">
 			<div class="left-body">
+				<div class="projeto-languages">
+					<span class="badge rounded-pill" v-for="(l, i) in item.languages" :key="i">
+						{{ l }}
+					</span>
+				</div>
 				<p v-for="(desc, i) in item.description" :key="i">{{ desc }}</p>
 				<div class="body-buttons">
 					<a :href="btn" target="_blank" v-for="(btn, i) in item.links" :key="i">
@@ -72,6 +77,14 @@
 		font-weight: 700;
 		font-size: 56pt;
 		margin-bottom: 24px;
+	}
+	.site-container.projeto .projeto-body .projeto-languages {
+		margin-bottom: 24px;
+		width: 100%;
+	}
+	.site-container.projeto .projeto-body .projeto-languages .badge{
+		background: #040631;
+		margin-right: 14px;;
 	}
 	.site-container.projeto .projeto-body {
 		display: flex;
