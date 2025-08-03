@@ -1,5 +1,16 @@
 export default [
 	{
+		languages: ['Angular', 'Express', 'AWS'],
+		name: 'POSTS ANGULAR + EXPRESS',
+		description: ['Desenvolvi um micro blog para praticar meus conhecimentos em front-end utilizando Angular, back-end com Express e deploy do back-end com Docker no AWS.', 'É um projeto simples, porém pude utilizar os conceitos de componentes, módulos, templates, diretivas, injeção de dependência, roteamento, pipes, angular CLI do Angular, Rxjs, Typescript, Express com autenticação com JsonWebToken, além de configurar e colocar para rodar em um ambiente Elastic Beanstalk da AWS.'],
+		type: 'computer',
+		links: {
+			Demo: 'https://senomalabs.com/posts-angular-express',
+			GitHub: 'https://github.com/senomardetritos/posts-angular-express',
+		},
+		images: ['images/posts-angular/01.png', 'images/posts-angular/02.png', 'images/posts-angular/03.png', 'images/posts-angular/04.png'],
+	},
+	{
 		languages: ['React'],
 		name: 'INSTA GIT',
 		description: [
