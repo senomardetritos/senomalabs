@@ -1,7 +1,7 @@
 <template>
 	<div class="site-container projeto" id="projetos">
 		<div class="projeto-bg-image">
-			<img :src="actualItem.images[index]" />
+			<img :src="actualItem.images[index] + '?date=' + date" />
 		</div>
 		<div class="projeto-names">
 			<div class="projeto-names-item" v-for="(item, i) in data" :key="i">
@@ -34,18 +34,23 @@
 					{{ item }}
 				</span>
 			</div>
-			<img :src="actualItem.images[index]" @click="showModalImage()" />
+			<img :src="actualItem.images[index] + '?date=' + date" @click="showModalImage()" />
 			<div class="projeto-information-counter">
 				<span :class="index == i ? 'orange' : ''" @click="changeCounter(i)" v-for="(item, i) in actualItem.images" :key="i"></span>
 			</div>
 			<i>* Clique na imagem para ver maior</i>
 		</div>
 		<div class="modal-image" v-if="actualItem.show">
-			<img :src="actualItem.images[index]" @click="actualItem.show = false" />
+			<img :src="actualItem.images[index] + '?date=' + date" @click="actualItem.show = false" />
 			<div class="projeto-information-counter">
 				<span :class="index == i ? 'orange' : ''" @click="changeCounter(i)" v-for="(item, i) in actualItem.images" :key="i"></span>
 			</div>
 			<i>* Clique na imagem para fechar</i>
+		</div>
+		<div class="load-images">
+			<div v-for="(item, i) in data" :key="i">
+				<img :src="image + '?date=' + date" v-for="(image, j) in item.images" :key="j" />
+			</div>
 		</div>
 	</div>
 </template>
@@ -60,6 +65,7 @@
 	const timerScroll = ref(null);
 	const textScroll = ref(null);
 	const positionScroll = ref(null);
+	const date = Date.now();
 
 	onMounted(() => {
 		changeItem(data[0]);
@@ -326,5 +332,8 @@
 		font-size: 8pt;
 		text-align: center;
 		width: 90%;
+	}
+	.load-images {
+		display: none;
 	}
 </style>
