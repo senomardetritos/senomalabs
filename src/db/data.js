@@ -88,6 +88,7 @@ export default [
 			'Código modular e bem estruturado, facilitando manutenção e escalabilidade.',
 			'Demonstração de habilidades em desenvolvimento front-end moderno e integração com APIs.',
 		],
+		date: 'Dezembro de 2024',
 		links: {
 			Demonstração: 'https://senomalabs.com/insta-git',
 			GitHub: 'https://github.com/senomardetritos/insta-git',
@@ -143,6 +144,7 @@ export default [
 			'',
 			'Este projeto reforçou minha capacidade de criar aplicações full-stack dinâmicas, com foco em performance, usabilidade e código limpo. O uso do Figma garantiu uma interface intuitiva, enquanto o Vue e o Pinia permitiram criar uma experiência interativa e responsiva.',
 		],
+		date: 'Agosto de 2024',
 		links: {
 			Demonstração: 'http://senomalabs.com/universities-app',
 			API: 'http://universities.hipolabs.com/',
@@ -203,6 +205,7 @@ export default [
 			'',
 			'Este projeto consolidou meus conhecimentos em Vue 3 e reforçou boas práticas de armazenamento local, demonstrando capacidade de criar aplicações leves, porém robustas, com foco na experiência do usuário. Ideal para demonstração de habilidades em front-end e soluções criativas para problemas cotidianos.',
 		],
+		date: 'Julho de 2024',
 		links: {
 			Demonstração: 'https://senomalabs.com/todo-card-list',
 			GitHub: 'https://github.com/senomardetritos/todo-card-list',
