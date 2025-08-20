@@ -1,25 +1,37 @@
 export default [
 	{
 		empresa: 'FEEDBACK INFORMÁTICA',
-		data: '07/2014 à 12/2024',
+		data: '07/2014 à 06/2025',
 		cargo: 'DESENVOLVEDOR FULL-STACK SÊNIOR',
 		resumo: 'PHP, Laravel, Vue.Js, SOAP, Rest',
 		atuacao: [
 			{
-				title: 'Desenvolvimento e manutenção do portal Nucoffee para Syngenta:',
-				itens: ['Integração entre sistemas Syngenta/ Nucoffee e SAP via SOAP.', 'Desenvolvimento de micro serviços SOAP em PHP para comunicação bidirecional entre SAP e WMS da Feedback Informática.'],
+				texto: 'Desenvolver e manter o Portal Nucoffee, garantindo performance, segurança e usabilidade.',
+				itens: 'PHP, CakePHP, MySQL',
 			},
 			{
-				title: 'Web app de Rastreabilidade de Café:',
-				itens: ['Criação de aplicativo web para rastreabilidade e extratos para produtores da Syngenta/Nucoffee.', 'Utilização de Cordova para gerar versões mobile.'],
+				texto: 'Criar e dar suporte à integração entre sistemas SAP e WMS, por meio de micro serviços SOAP.',
+				itens: 'PHP, SOAP e VB.NET',
 			},
 			{
-				title: 'Migração e atualização da plataforma Syngenta/Nucoffee:',
-				itens: ['Reescrita do sistema antigo (CakePHP) para uma nova versão.', 'Desenvolvimento Full Stack com PHP 8 e Laravel 10 (back-end) e Vue.js (front-end).', 'Comunicação via REST.'],
+				texto: 'Projetar, codificar e entregar soluções para integração bidirecional de dados entre Syngenta, Nucoffee e sistemas de terceiros.',
+				itens: 'PHP e VB.NET',
 			},
 			{
-				title: 'Sistema AgroGis para agrônomos e fazendas:',
-				itens: ['Desenvolvimento Full Stack de plataforma online para controle e análise de produtores de café.', 'Funcionalidades: controle de estoque, fiscal, financeiro, aplicação de insumos, rastreabilidade e classificação de café.', 'Tecnologias: PHP 8, Laravel 10(back - end) e Vue.js(front - end) com comunicação REST.'],
+				texto: 'Desenvolver aplicativos web e mobile híbridos com foco em rastreabilidade de café e consulta de extratos por produtores.',
+				itens: 'Node, Express, Vue.js e Cordova',
+			},
+			{
+				texto: 'Desenvolver aplicativos web e mobile com back-end em Node e Express para integrar com sistemas legados, gerando API RESTful para servir o front-end em Vue.js e Cordova para mobile.',
+				itens: 'Node, Express, Vue.js e Cordova',
+			},
+			{
+				texto: 'Atuar na reestruturação da plataforma legada (CakePHP) para arquitetura moderna.',
+				itens: 'PHP 8, Laravel 10, Vue.js e REST API',
+			},
+			{
+				texto: 'Liderar o desenvolvimento do sistema AgroGis, voltado ao controle técnico e financeiro das fazendas, incluindo módulos como estoque, fiscal, insumos, rastreabilidade e classificação de café.',
+				itens: 'PHP 8, Laravel 10, Vue.js e REST API',
 			},
 		],
 	},
@@ -30,16 +42,22 @@ export default [
 		resumo: 'Objective-C (iOS), Java (Android), Angular e framework da Zup Innovation',
 		atuacao: [
 			{
-				title: 'Desenvolvimento de aplicativos nativos para iOS e Android:',
-				itens: ['Linguagens: Objective-C (iOS) e Java (Android).', 'Utilização do framework da Zup para consumo de APIs e integração de dados.', 'Aplicativo para consultores de vendas da Natura.', 'Aplicativo para clientes da CTBC Banda Larga.'],
+				texto: 'Desenvolvi aplicativos nativos para iOS e Android, voltados para consultores de vendas (Natura) e clientes de banda larga (CTBC).',
+				itens: 'iOS (Objective-C) e Android (Java)',
 			},
 			{
-				title: 'Desenvolvimento e manutenção de webapp:',
-				itens: ['Cliente: Vivo Fixo.', 'Tecnologias: Angular e framework da Zup para integração de dados via API.'],
+				texto: 'Atualizações e manutenção no website da Vivo em Angular.',
+				itens: 'Angular (Web)',
 			},
 			{
-				title: 'Metodologias ágeis:',
-				itens: ['Experiência com Scrum para gestão de projetos.'],
+				texto: 'Implementei integração entre os aplicativos e os sistemas legados dos clientes por meio do framework da Zup para consumo de APIs RESTful.',
+				itens: 'Framework da Zup',
+			},
+			{
+				texto: 'Atuei em conjunto com equipes de UX/UI e back-end, garantindo a performance, usabilidade e estabilidade das aplicações.',
+			},
+			{
+				texto: 'Realizei testes unitários e funcionais, além de suporte a homologação com o cliente.',
 			},
 		],
 	},
@@ -50,24 +68,24 @@ export default [
 		resumo: 'HTML, CSS, JS, jQuery, PHP, VB.NET, OpenGL, SQL Server e MySQL',
 		atuacao: [
 			{
-				title: 'Sistema GIS para controle de aplicação de insumos (Jacto):',
-				itens: ['Controle georreferenciado de aplicação de insumos agrícolas e mapas visuais de rotas.', 'Cadastros base: Produtor, Fazenda, Setor, Safra, etc.', 'Comunicação via Bluetooth entre máquinas agrícolas e o sistema.', 'Tecnologias: VB.NET e SQL Server.'],
+				texto: 'Desenvolvimento de sistema GIS para controle de aplicação de insumos agrícolas nas máquinas da Jacto, com recursos georreferenciados e mapas de rotas.',
+				itens: 'VB.NET, SQL Server, integração via Bluetooth',
 			},
 			{
-				title: 'Sistema de mapas 3D para logística de estoque de café:',
-				itens: ['Controle visual de estoque por quadras e lotes de café.', 'Integração com sistemas WMS (Feedback Informática e terceiros).', 'Tecnologias: VB.NET e OpenGL para ambiente 3D.'],
+				texto: 'Criação de sistema 3D para visualização e controle logístico de estoques de café por quadras e lotes, com integração ao WMS da Feedback Informática ou de terceiros.',
+				itens: 'VB.NET, OpenGL',
 			},
 			{
-				title: 'Portal Nucoffee (Syngenta):',
-				itens: ['Desenvolvimento Full Stack.', 'Funcionalidades: controle de contratos (compra e venda), aplicação de insumos, rastreabilidade e classificação de café.', 'Tecnologias: PHP com framework CakePHP e MySQL.'],
+				texto: 'Atuação como desenvolvedor full stack no portal Nucoffee (Syngenta), com funcionalidades de contratos, aplicabilidade de insumos, rastreabilidade e classificação de café.',
+				itens: 'PHP, CakePHP, MySQL',
 			},
 			{
-				title: 'Plataforma digital Waapa:',
-				itens: ['Rede social de sites institucionais com layouts personalizáveis.', 'Desenvolvimento Full Stack em HTML, CSS, JS, jQuery e PHP.', 'Banco de dados: MySQL.'],
+				texto: 'Desenvolvimento da plataforma Waapa, uma rede social corporativa para criação de sites institucionais com layout padronizado e personalizável.',
+				itens: 'PHP, HTML, CSS, JavaScript, jQuery, MySQL',
 			},
 			{
-				title: 'Desenvolvimento de sites institucionais:',
-				itens: ['Criação de layouts e desenvolvimento para clientes da Feedback Informática.', 'Tecnologias: HTML, CSS, JS, jQuery, PHP e MySQL.'],
+				texto: 'Criação e manutenção de sites institucionais personalizados para clientes da Feedback Informática, com foco em responsividade, desempenho e identidade visual.',
+				itens: 'PHP, HTML, CSS, JavaScript, jQuery, MySQL',
 			},
 		],
 	},

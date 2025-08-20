@@ -3,13 +3,12 @@
 		<div class="habilidade-header">
 			<div class="dados">
 				<h1>HABILIDADES</h1>
-				<ul>
-					<li><b>Front-end:</b> Html5, Css3, Scss, Bootstrap, JQuery, JavaScript, TypeScript.</li>
-					<li><b>WebApps:</b> Vue.js, Angular, React, Cordova.</li>
-					<li><b>Back-end:</b> PHP, CakePHP, Laravel, Node.Js, Express.</li>
-					<li><b>Mobile:</b> Objective-C (iOS), Java (Android).</li>
-					<li><b>Desktop:</b> Visual Basic, VB.NET.</li>
-				</ul>
+				<div>✔ <b>Front-end:</b> Html5, Css3, Scss, Bootstrap, JQuery, JavaScript, TypeScript.</div>
+				<div>✔ <b>WebApps:</b> Vue.js, Angular, React, Cordova.</div>
+				<div>✔ <b>Back-end:</b> PHP, CakePHP, Laravel, Node.Js, Express, Python, Django.</div>
+				<div>✔ <b>Mobile:</b> Objective-C (iOS), Java (Android).</div>
+				<div>✔ <b>Desktop:</b> Visual Basic, VB.NET.</div>
+				<div>✔ <b>Design:</b> Figma, Photoshop, Krita.</div>
 			</div>
 		</div>
 	</div>
@@ -43,8 +42,5 @@
 		font-weight: 700;
 		font-size: 56pt;
 		margin-bottom: 24px;
-	}
-	.site-container.habilidade .habilidade-header ul li {
-		margin: 8px 0;
 	}
 </style>
